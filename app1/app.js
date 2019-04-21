@@ -24,11 +24,4 @@ const view = (state, actions) =>
       })),
   ])
 
-//app(state, actions, view, document.body)
-
-
-const app = (view, container, node) => state => {
-    node = patch(node, view(state), container)
-}
-const render = app(view, document.body)
-render(0)
+app(state, actions, view, document.body)
