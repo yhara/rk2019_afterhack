@@ -1,0 +1,3 @@
+[submodule "hyperapp"]
+	path = hyperapp
+	url = https://github.com/jorgebucaran/hyperapp
